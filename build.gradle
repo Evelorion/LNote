@@ -1,0 +1,14 @@
+// 顶级 build.gradle 文件
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:9.0.1'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

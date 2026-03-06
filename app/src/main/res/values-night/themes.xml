@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 暗黑模式 - 主题 -->
+    <style name="Theme.NoteApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- iOS风格颜色 -->
+        <item name="colorPrimary">@color/ios_blue</item>
+        <item name="colorPrimaryVariant">@color/ios_blue</item>
+        <item name="colorSecondary">@color/ios_cyan</item>
+        <item name="colorSecondaryVariant">@color/ios_green</item>
+        <item name="colorError">@color/ios_red</item>
+        <item name="colorSurface">@color/ios_bg_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorOnSurface">@color/ios_text_primary</item>
+        
+        <!-- 背景颜色 -->
+        <item name="android:windowBackground">@color/ios_bg_primary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:statusBarColor">@color/ios_bg_primary</item>
+        <item name="android:navigationBarColor">@color/ios_bg_secondary</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+
+        <!-- 自定义主题属性 - 暗黑模式 -->
+        <item name="themeBgPrimary">@color/ios_bg_primary</item>
+        <item name="themeBgCard">@color/ios_bg_secondary</item>
+        <item name="themeBgSearch">@color/ios_bg_tertiary</item>
+        <item name="themeTextPrimary">@color/ios_text_primary</item>
+        <item name="themeTextSecondary">@color/ios_text_secondary</item>
+        <item name="themeTextTertiary">@color/ios_text_tertiary</item>
+        <item name="themeTextPlaceholder">@color/ios_text_placeholder</item>
+        <item name="themeSeparator">@color/ios_separator</item>
+        <item name="themeNavBg">@color/ios_bg_secondary</item>
+        <item name="themeToolbarBg">@color/ios_bg_secondary</item>
+        <item name="themeCardMint">@color/note_card_mint</item>
+        <item name="themeCardCream">@color/note_card_cream</item>
+        <item name="themeCardBlue">@color/note_card_blue</item>
+        <item name="themeCardLavender">@color/note_card_lavender</item>
+    </style>
+</resources>

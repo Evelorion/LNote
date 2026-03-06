@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/glass_card_bg"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加标签"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="为笔记添加一个标签，方便分类和检索。"
+        android:textColor="@color/ios_text_secondary"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/et_tag_input"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/search_capsule_bg"
+        android:hint="输入标签名称"
+        android:textColor="@color/white"
+        android:textColorHint="@color/ios_text_placeholder"
+        android:inputType="text"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="24dp"
+        android:textColorHighlight="@color/accent_blue_alpha"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btn_tag_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:background="?attr/selectableItemBackground"
+            android:textColor="@color/ios_text_secondary"
+            android:textAllCaps="false"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btn_tag_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加"
+            android:background="@drawable/category_chip_selected_bg"
+            android:textColor="@color/white"
+            android:paddingHorizontal="24dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>

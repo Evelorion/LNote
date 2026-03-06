@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GlassContainerView 自定义属性 -->
+    <declare-styleable name="GlassContainerView">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="glassColor" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowElevation" format="dimension" />
+    </declare-styleable>
+
+    <!-- 自定义主题属性 - 用于全局主题适配 -->
+    <attr name="themeBgPrimary" format="color" />
+    <attr name="themeBgCard" format="color" />
+    <attr name="themeBgSearch" format="color" />
+    <attr name="themeTextPrimary" format="color" />
+    <attr name="themeTextSecondary" format="color" />
+    <attr name="themeTextTertiary" format="color" />
+    <attr name="themeTextPlaceholder" format="color" />
+    <attr name="themeSeparator" format="color" />
+    <attr name="themeNavBg" format="color" />
+    <attr name="themeToolbarBg" format="color" />
+    <attr name="themeCardMint" format="color" />
+    <attr name="themeCardCream" format="color" />
+    <attr name="themeCardBlue" format="color" />
+    <attr name="themeCardLavender" format="color" />
+</resources>

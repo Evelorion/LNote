@@ -1,0 +1,54 @@
+# Gradle files
+.gradle/
+build/
+.gradletasknamecache
+
+# Local configuration file
+local.properties
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle wrapper
+gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio files
+.idea/
+.idea/**
+*.iml
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.so
+
+# IntelliJ
+*.iws
+*.ipr
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+
+# Mac files
+.DS_Store
+
+# Misc
+*.log
+*.swp
+*.swo
+*~
+
+# Build output logs
+build_output*.txt
+build_log.txt
+build_result.txt
+
+# Reports
+COMPLETION_REPORT.md
+FINAL_COMPLETION_REPORT.md
+PROJECT_SUMMARY.md

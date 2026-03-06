@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 暗黑模式 - iOS风格颜色 -->
+    
+    <!-- 主色调（暗黑模式） -->
+    <color name="ios_blue">#FF0A84FF</color>
+    <color name="ios_blue_light">#FF30B0C0</color>
+    <color name="ios_red">#FFFF453A</color>
+    <color name="ios_orange">#FFFF9500</color>
+    <color name="ios_yellow">#FFFFCC00</color>
+    <color name="ios_green">#FF30B0C0</color>
+    <color name="ios_cyan">#FF32B768</color>
+    <color name="ios_purple">#FFBF5AF0</color>
+    <color name="ios_pink">#FFFF375F</color>
+    
+    <!-- 背景颜色（暗黑模式） -->
+    <color name="ios_bg_primary">#FF0A0A0E</color>
+    <color name="ios_bg_secondary">#FF1C1C1E</color>
+    <color name="ios_bg_tertiary">#FF2A2A2E</color>
+    
+    <!-- 玻璃效果颜色（暗黑模式） -->
+    <color name="glass_white_light">#3D000000</color>
+    <color name="glass_white_medium">#2D000000</color>
+    <color name="glass_white_dark">#1A000000</color>
+    <color name="glass_blue">#2D0C3F98</color>
+    
+    <!-- 文本颜色（暗黑模式） -->
+    <color name="ios_text_primary">#FFFFFFFF</color>
+    <color name="ios_text_secondary">#FFE5E5EA</color>
+    <color name="ios_text_tertiary">#FF8E8E93</color>
+    <color name="ios_text_placeholder">#FF636366</color>
+    
+    <!-- 边框和分隔线（暗黑模式） -->
+    <color name="ios_separator">#FF38383A</color>
+    <color name="ios_separator_opaque">#FF545458</color>
+
+    <!-- 便签卡片配色（暗黑模式） -->
+    <color name="note_card_mint">#FF2A3B36</color>
+    <color name="note_card_cream">#FF3A3426</color>
+    <color name="note_card_blue">#FF253744</color>
+    <color name="note_card_lavender">#FF332B44</color>
+    
+    <!-- 旧的颜色定义（兼容性） -->
+    <color name="purple_200">#FF444446</color>
+    <color name="purple_500">#FF5E5CE6</color>
+    <color name="purple_700">#FF3D3D42</color>
+    <color name="teal_200">#FF30DDDD</color>
+    <color name="teal_700">#FF018886</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red_500">#FFFF453A</color>
+    <color name="gray_200">#FF3A3A3C</color>
+    <color name="gray_500">#FF636366</color>
+</resources>

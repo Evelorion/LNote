@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 暗黑模式 - 样式 -->
+    
+    <!-- iOS风格的卡片容器样式（暗黑） -->
+    <style name="GlassCardStyle" parent="">
+        <item name="android:background">@drawable/glass_bg_shape</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    
+    <!-- iOS风格按钮样式（暗黑） -->
+    <style name="IOSButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="backgroundColor">@color/ios_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+    
+    <!-- iOS风格编辑文本（暗黑） -->
+    <style name="IOSEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/glass_bg_shape</item>
+        <item name="android:textColor">@color/ios_text_primary</item>
+        <item name="android:textColorHint">@color/ios_text_placeholder</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>

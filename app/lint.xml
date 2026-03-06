@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="OldTargetApi" severity="ignore" />
+    <issue id="GradleDependency" severity="ignore" />
+    <issue id="NewerVersionAvailable" severity="ignore" />
+    <issue id="UnusedResources" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="TypographyEllipsis" severity="ignore" />
+    <issue id="Overdraw" severity="ignore" />
+    <issue id="UselessParent" severity="ignore" />
+    <issue id="UseCompoundDrawables" severity="ignore" />
+    <issue id="DisableBaselineAlignment" severity="ignore" />
+    <issue id="ButtonStyle" severity="ignore" />
+    <issue id="Autofill" severity="ignore" />
+    <issue id="ContentDescription" severity="ignore" />
+    <issue id="DrawAllocation" severity="ignore" />
+    <issue id="NotifyDataSetChanged" severity="ignore" />
+    <issue id="DiscouragedApi" severity="ignore" />
+    <issue id="StaticFieldLeak" severity="ignore" />
+    <issue id="ObsoleteSdkInt" severity="ignore" />
+    <issue id="ScopedStorage" severity="ignore" />
+    <issue id="SelectedPhotoAccess" severity="ignore" />
+    <issue id="MonochromeLauncherIcon" severity="ignore" />
+    <issue id="GetInstance" severity="ignore" />
+    <issue id="InlinedApi" severity="ignore" />
+</lint>

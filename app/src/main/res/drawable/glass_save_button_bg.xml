@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 玻璃材质完成按钮 -->
+    <solid android:color="#CC007AFF" />
+    <corners android:radius="20dp" />
+    <stroke
+        android:width="0.5dp"
+        android:color="#50FFFFFF" />
+</shape>

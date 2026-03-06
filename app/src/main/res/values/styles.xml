@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 按钮样式 -->
+    <style name="NoteButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+    
+    <!-- 编辑文本样式 -->
+    <style name="NoteEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray_500</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <!-- 标题文本样式 -->
+    <style name="NoteTitleTextStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- 内容文本样式 -->
+    <style name="NoteContentTextStyle">
+        <item name="android:textColor">@color/gray_500</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 玻璃材质 PopupMenu 样式 -->
+    <style name="GlassPopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/glass_menu_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:dropDownSelector">@drawable/menu_item_selector</item>
+        <item name="android:listPreferredItemHeightSmall">52dp</item>
+        <item name="android:overlapAnchor">false</item>
+        <!-- 移除默认阴影，使用背景自带的边框效果或自定义阴影 -->
+        <item name="android:popupElevation">4dp</item>
+    </style>
+
+    <!-- 用于 ContextThemeWrapper 的主题，确保深色玻璃背景 -->
+    <style name="GlassPopupMenuTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="popupMenuStyle">@style/GlassPopupMenu</item>
+        <item name="android:popupMenuStyle">@style/GlassPopupMenu</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">#B0FFFFFF</item>
+        <item name="colorSurface">#1C2128</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="android:colorBackground">#1C2128</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- 时间胶囊日期选择器主题 -->
+    <style name="CapsuleDatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">@color/ios_orange</item>
+    </style>
+</resources>

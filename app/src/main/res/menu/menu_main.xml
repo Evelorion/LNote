@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <!-- 备份笔记 -->
+    <item
+        android:id="@+id/action_backup"
+        android:title="备份"
+        app:showAsAction="never" />
+    
+    <!-- 恢复笔记 -->
+    <item
+        android:id="@+id/action_restore"
+        android:title="恢复"
+        app:showAsAction="never" />
+    
+    <!-- 导出为文本 -->
+    <item
+        android:id="@+id/action_export_text"
+        android:title="导出为文本"
+        app:showAsAction="never" />
+    
+    <!-- 高级搜索 -->
+    <item
+        android:id="@+id/action_advanced_search"
+        android:title="高级搜索"
+        app:showAsAction="never" />
+    
+    <!-- 清除搜索历史 -->
+    <item
+        android:id="@+id/action_clear_search_history"
+        android:title="清除搜索历史"
+        app:showAsAction="never" />
+    
+    <!-- 时间胶囊 -->
+    <item
+        android:id="@+id/action_time_capsule"
+        android:title="时间胶囊"
+        app:showAsAction="never" />
+    
+    <!-- 设置 -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="设置"
+        app:showAsAction="never" />
+    
+</menu>
