@@ -474,11 +474,7 @@ public class EditNoteActivity extends AppCompatActivity {
     }
 
     private void showTimeCapsuleDialog() {
-        // 使用中文 locale 上下文，确保 DatePicker spinner 显示中文
-        android.content.res.Configuration config = new android.content.res.Configuration(getResources().getConfiguration());
-        config.setLocale(Locale.CHINA);
-        android.content.Context zhContext = createConfigurationContext(config);
-        View dialogView = LayoutInflater.from(zhContext).inflate(R.layout.dialog_time_capsule, null);
+        View dialogView = getLayoutInflater().inflate(R.layout.dialog_time_capsule, null);
 
         DatePicker datePicker = dialogView.findViewById(R.id.date_picker_capsule);
         Button btnCancel = dialogView.findViewById(R.id.btn_capsule_cancel);
